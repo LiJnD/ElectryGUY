@@ -16,25 +16,18 @@ window.addEventListener('scroll', () => {
 function enviarCotizacion() {
   const nombre   = document.getElementById('nombre').value.trim();
   const telefono = document.getElementById('telefono').value.trim();
-  const tipo     = document.getElementById('tipo').value;
-  const ancho    = document.getElementById('ancho').value;
-  const alto     = document.getElementById('alto').value;
-  const auto_    = document.getElementById('auto').value;
   const mensaje  = document.getElementById('mensaje').value.trim();
 
-  if (!nombre || !telefono || !tipo) {
-    alert('Por favor completa al menos: nombre, teléfono y tipo de portón.');
+  if (!nombre || !telefono || !mensaje) {
+    alert('Por favor completa al menos: nombre, teléfono y El mensaje.');
     return;
   }
 
-  let texto = `Hola ElectroGUY, quiero cotizar \n\n`;
+  let texto = `Hola ElectriGATE, quiero cotizar \n\n`;
   texto += `*Nombre:* ${nombre}\n`;
   texto += `*Teléfono:* ${telefono}\n`;
-  texto += `*Tipo de portón:* ${tipo}\n`;
-  if (ancho) texto += `*Ancho:* ${ancho} m\n`;
-  if (alto)  texto += `*Alto:* ${alto} m\n`;
-  if (auto_) texto += `*Automatización:* ${auto_}\n`;
-  if (mensaje) texto += `\n*Descripción:* ${mensaje}`;
+  texto += `*Descripción:* ${mensaje}\n`;
+
 
   const encoded = encodeURIComponent(texto);
   window.open(`https://wa.me/56926373066?text=${encoded}`, '_blank');

@@ -1,0 +1,131 @@
+código en espera Html:
+
+-----------------------------------------------------------------------------------------------------------
+
+diseño de porton:
+<svg width="120" height="140" viewBox="0 0 120 140" fill="none">
+          <rect x="2" y="2" width="116" height="136" stroke="#c9a84c" stroke-width="3" fill="none"/>
+          <line x1="60" y1="2" x2="60" y2="138" stroke="#c9a84c" stroke-width="2"/>
+          <line x1="20" y1="8" x2="20" y2="132" stroke="#c9a84c" stroke-opacity="0.5" stroke-width="1.5"/>
+          <line x1="40" y1="8" x2="40" y2="132" stroke="#c9a84c" stroke-opacity="0.5" stroke-width="1.5"/>
+          <line x1="80" y1="8" x2="80" y2="132" stroke="#c9a84c" stroke-opacity="0.5" stroke-width="1.5"/>
+          <line x1="100" y1="8" x2="100" y2="132" stroke="#c9a84c" stroke-opacity="0.5" stroke-width="1.5"/>
+          <line x1="2" y1="45" x2="118" y2="45" stroke="#c9a84c" stroke-opacity="0.4" stroke-width="2"/>
+          <line x1="2" y1="95" x2="118" y2="95" stroke="#c9a84c" stroke-opacity="0.4" stroke-width="2"/>
+        </svg>
+------------------------------------------------------------------------------------------------------------
+proceso:
+
+navegador
+<li><a href="#proceso">Proceso</a></li>
+
+paguina:
+<!-- PROCESO -->
+<section id="proceso">
+  <div class="proceso-grid">
+    <div>
+      <p class="section-tag">¿Cómo trabajamos?</p>
+      <h2 class="section-title">Proceso simple<br>en 4 pasos</h2>
+
+      <div class="proceso-steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <div class="step-content">
+            <h3>Cotización</h3>
+            <p>Escríbenos por WhatsApp o llena el formulario. Te respondemos en menos de 2 horas con precio y opciones.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <div class="step-content">
+            <h3>Diseño & Medidas</h3>
+            <p>Coordinamos una visita técnica gratuita para medir el espacio y definir el diseño final junto a ti.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <div class="step-content">
+            <h3>Fabricación</h3>
+            <p>Fabricamos tu portón en nuestro taller con materiales de primera calidad. Tiempo promedio: 5 a 10 días hábiles.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <div class="step-content">
+            <h3>Instalación</h3>
+            <p>Instalamos y verificamos el funcionamiento. Entregamos garantía escrita y soporte post-venta.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="proceso-visual">
+      <div class="garantia-item">
+        <div class="garantia-icon">🔩</div>
+        <div class="garantia-text">
+          <h4>Materiales certificados</h4>
+          <p>Acero estructural y aluminio de primera calidad con resistencia a la corrosión comprobada.</p>
+        </div>
+      </div>
+      <div class="garantia-item">
+        <div class="garantia-icon">🎯</div>
+        <div class="garantia-text">
+          <h4>Precisión milimétrica</h4>
+          <p>Todas las piezas son cortadas con tecnología de plasma y soldadas por maestros certificados.</p>
+        </div>
+      </div>
+      <div class="garantia-item">
+        <div class="garantia-icon">📋</div>
+        <div class="garantia-text">
+          <h4>Garantía por escrito</h4>
+          <p>2 años de garantía en fabricación y 1 año en motor de automatización con soporte incluido.</p>
+        </div>
+      </div>
+      <div class="garantia-item">
+        <div class="garantia-icon">🚚</div>
+        <div class="garantia-text">
+          <h4>Traslado e instalación</h4>
+          <p>Llegamos a tu domicilio con todo el equipo necesario. Sin costos ocultos ni sorpresas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section
+------------------------------------------------------------------------------------------------------------
+
+cotización:
+Tipo de portones y sus medidas:
+      <div class="form-group">
+        <label>Tipo de portón</label>
+        <select id="tipo">
+          <option value="">— Selecciona una opción —</option>
+          <option>Portón batiente (1 hoja)</option>
+          <option>Portón batiente doble hoja</option>
+          <option>Portón corredera</option>
+          <option>Portón seccional</option>
+          <option>Reja / Cerco</option>
+          <option>Otro / No sé aún</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Ancho aproximado (m)</label>
+          <input type="number" id="ancho" placeholder="Ej: 3.5" step="0.1" min="0" />
+        </div>
+        <div class="form-group">
+          <label>Alto aproximado (m)</label>
+          <input type="number" id="alto" placeholder="Ej: 2.2" step="0.1" min="0" />
+        </div>
+      </div>
+automatizar porton:
+      <div class="form-group">
+        <label>¿Quieres automatización?</label>
+        <select id="auto">
+          <option value="">— Selecciona —</option>
+          <option>Sí, con motor automático</option>
+          <option>No, solo manual</option>
+          <option>No sé aún, que me asesoren</option>
+        </select>
+      </div>
+------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,13 @@
+código en espera JavaScript:
+
+------------------------------------------------------------------------
+// ── Función para enviar cotización por WhatsApp ──
+ const tipo     = document.getElementById('tipo').value;
+  const ancho    = document.getElementById('ancho').value;
+  const alto     = document.getElementById('alto').value;
+  const auto_    = document.getElementById('auto').value;
+
+texto += `*Tipo de portón:* ${tipo}\n`;
+  if (ancho) texto += `*Ancho:* ${ancho} m\n`;
+  if (alto)  texto += `*Alto:* ${alto} m\n`;
+  if (auto_) texto += `*Automatización:* ${auto_}\n`;
